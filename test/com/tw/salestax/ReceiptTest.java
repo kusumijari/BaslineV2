@@ -1,7 +1,14 @@
 package com.tw.salestax;
 
-/**
- * Created by kusumi on 28/08/15.
- */
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
 public class ReceiptTest {
+
+    @Test
+    public void shouldDisplayItem(){
+        Receipt receipt = new Receipt("This is an item");
+        assertEquals("This is an item", receipt.display());
+    }
 }
