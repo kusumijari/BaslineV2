@@ -3,12 +3,14 @@
 package com.tw.salestax;
 
 public class Receipt {
-    private String item;
+    private String details;
 
-    Receipt(String item) {
-        this.item = item;
+
+    Receipt(String details) {
+        this.details = details;
     }
+
     public String display(){
-        return item;
+        return details;
     }
 }

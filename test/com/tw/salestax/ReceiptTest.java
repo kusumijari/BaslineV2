@@ -7,8 +7,10 @@ import static org.junit.Assert.assertEquals;
 public class ReceiptTest {
 
     @Test
-    public void shouldDisplayItem(){
+    public void shouldDisplayDetails() {
         Receipt receipt = new Receipt("This is an item");
+
         assertEquals("This is an item", receipt.display());
     }
+
 }
