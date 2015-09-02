@@ -7,10 +7,12 @@ public class Receipt {
 
 
     Receipt(String details) {
+
         this.details = details;
     }
 
     public String display(){
+
         return details;
     }
 }

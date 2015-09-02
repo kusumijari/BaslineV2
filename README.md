@@ -1,6 +1,12 @@
 #Problem Description 
-To print a receipt consisting of the following details -
-    *Names of items and their price(including tax)
-    *Total cost of items 
-    *Total amount of sales tax
-    
+To calculate sales tax.
+
+#Setting up dev env
+1.Any OS
+2.Install jdk version 7 or above
+3.Install apache-ant
+
+#How to build 
+
+Change working directory to the project directory using 'cd (path_to_directory)'
+Run the command 'ant'.
